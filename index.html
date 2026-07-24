@@ -4,28 +4,355 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estevão Jorge</title>
-    <link rel="stylesheet" href="css/stylesheet.css" class="rel">
+    <title>Delvox | Equipamentos de Ensaios Não Destrutivos</title>
+    <meta name="description" content="Delvox — Venda e aluguer de equipamentos de Ensaios Não Destrutivos (END): boroscópios, yokes, radiómetros, densitómetros, lanternas UV, ultra-som e sinalização de segurança.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 
 <body>
-    <!--Barra de navegação-->
-    <header class="headersc">
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-        <h1 class="site-title">Estevão Jorge</h1>
-        <h2 class="site-subtitle">Jr. Web Developer</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique excepturi quo nostrum praesentium
-            recusandae corporis vitae quaerat illo. Dolor, natus.</p>
-        <a href="#" class="button">Saiba Mais</a>
+
+    <!-- Cabeçalho -->
+    <header class="site-header" id="topo">
+        <div class="container header-inner">
+            <a href="#topo" class="logo">
+                <span class="logo-icon" aria-hidden="true"></span>
+                <span class="logo-text">
+                    <span class="logo-mark">DEL<span class="accent">VOX</span></span>
+                    <span class="logo-tag">Ensaios Não Destrutivos</span>
+                </span>
+            </a>
+
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="#topo">Início</a></li>
+                    <li><a href="#equipamentos">Equipamentos</a></li>
+                    <li><a href="#vantagens">Porquê a Delvox</a></li>
+                    <li><a href="#aluguer">Venda &amp; Aluguer</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#contacto" class="btn btn-primary">Pedir Orçamento</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
     </header>
 
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <p class="eyebrow">Venda &amp; Aluguer de equipamento técnico</p>
+                    <h1>Equipamentos de Ensaios Não Destrutivos para inspeções sem margem de erro</h1>
+                    <p class="hero-lead">
+                        Fornecemos, vendemos e alugamos equipamento de END de referência — boroscópios,
+                        yokes AC/DC, radiómetros, densitómetros, lanternas UV, aparelhos de ultra-som e
+                        sinalização de segurança LED — com assistência técnica e calibração incluída.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#equipamentos" class="btn btn-primary btn-lg">Ver Equipamentos</a>
+                        <a href="#contacto" class="btn btn-outline btn-lg">Falar com um Especialista</a>
+                    </div>
+                    <ul class="hero-badges">
+                        <li>Equipamento calibrado</li>
+                        <li>Aluguer flexível</li>
+                        <li>Suporte técnico 24/7</li>
+                    </ul>
+                </div>
 
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="hero-card">
+                        <svg viewBox="0 0 200 200" class="hero-icon">
+                            <circle cx="100" cy="100" r="88" class="ring"></circle>
+                            <path d="M55 120 L95 60 L120 100 L145 70" class="wave"></path>
+                            <circle cx="100" cy="100" r="14" class="dot"></circle>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Barra de confiança -->
+        <section class="trust-bar">
+            <div class="container trust-grid">
+                <div class="trust-item">
+                    <span class="trust-number">15+</span>
+                    <span class="trust-label">Anos no setor de END</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">100%</span>
+                    <span class="trust-label">Equipamento certificado</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">24h</span>
+                    <span class="trust-label">Resposta a pedidos de aluguer</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">+300</span>
+                    <span class="trust-label">Clientes na indústria</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Equipamentos -->
+        <section class="equipamentos" id="equipamentos">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">Catálogo</p>
+                    <h2>Equipamentos para os principais métodos de END</h2>
+                    <p class="section-sub">Disponíveis para compra ou aluguer de curta e longa duração, com formação e assistência técnica.</p>
+                </div>
+
+                <div class="cards-grid">
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 48 48"><circle cx="18" cy="24" r="10"/><path d="M25 24h18M39 18v12"/></svg>
+                        </div>
+                        <h3>Boroscópio</h3>
+                        <p>Inspeção visual remota de cavidades, motores e componentes de difícil acesso, sem desmontagem.</p>
+                        <div class="card-actions">
+                            <a href="#contacto" class="pill pill-buy">Comprar</a>
+                            <a href="#contacto" class="pill pill-rent">Alugar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 48 48"><path d="M14 34a10 10 0 1 1 20 0"/><path d="M14 34v6M34 34v6"/><circle cx="24" cy="14" r="4"/></svg>
+                        </div>
+                        <h3>Yoke (AC/DC)</h3>
+                        <p>Jugo magnético para ensaio por partículas magnéticas, com correntes alterna e contínua para deteção de descontinuidades superficiais.</p>
+                        <div class="card-actions">
+                            <a href="#contacto" class="pill pill-buy">Comprar</a>
+                            <a href="#contacto" class="pill pill-rent">Alugar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="16"/><path d="M24 24 L34 14"/><circle cx="24" cy="24" r="3"/></svg>
+                        </div>
+                        <h3>Radiómetros</h3>
+                        <p>Medição precisa de níveis de radiação em ensaios radiográficos, garantindo segurança operacional.</p>
+                        <div class="card-actions">
+                            <a href="#contacto" class="pill pill-buy">Comprar</a>
+                            <a href="#contacto" class="pill pill-rent">Alugar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 48 48"><rect x="10" y="10" width="28" height="28" rx="4"/><path d="M16 30l6-10 5 6 6-8"/></svg>
+                        </div>
+                        <h3>Densitómetros</h3>
+                        <p>Medição da densidade óptica em filmes radiográficos, assegurando a qualidade das imagens de inspeção.</p>
+                        <div class="card-actions">
+                            <a href="#contacto" class="pill pill-buy">Comprar</a>
+                            <a href="#contacto" class="pill pill-rent">Alugar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 48 48"><rect x="8" y="20" width="18" height="8" rx="2"/><path d="M26 22h4l8-6v18l-8-6h-4"/></svg>
+                        </div>
+                        <h3>Lanterna Ultravioleta</h3>
+                        <p>Fonte de luz UV para inspeção com líquidos penetrantes e partículas magnéticas fluorescentes.</p>
+                        <div class="card-actions">
+                            <a href="#contacto" class="pill pill-buy">Comprar</a>
+                            <a href="#contacto" class="pill pill-rent">Alugar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 48 48"><rect x="12" y="10" width="12" height="28" rx="3"/><path d="M28 16c6 3 6 13 0 16"/><path d="M32 12c9 5 9 19 0 24"/></svg>
+                        </div>
+                        <h3>Aparelho de Ultra-som</h3>
+                        <p>Deteção de descontinuidades internas e medição de espessuras através de ultra-som industrial.</p>
+                        <div class="card-actions">
+                            <a href="#contacto" class="pill pill-buy">Comprar</a>
+                            <a href="#contacto" class="pill pill-rent">Alugar</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 48 48"><circle cx="24" cy="18" r="8"/><path d="M24 26v14M18 40h12"/></svg>
+                        </div>
+                        <h3>Luzes de Sinalização LED</h3>
+                        <p>Sinalização de segurança para áreas de ensaio, com elevada visibilidade e baixo consumo energético.</p>
+                        <div class="card-actions">
+                            <a href="#contacto" class="pill pill-buy">Comprar</a>
+                            <a href="#contacto" class="pill pill-rent">Alugar</a>
+                        </div>
+                    </article>
+
+                    <article class="card card-more">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 48 48"><circle cx="14" cy="24" r="3"/><circle cx="24" cy="24" r="3"/><circle cx="34" cy="24" r="3"/></svg>
+                        </div>
+                        <h3>E muito mais</h3>
+                        <p>Trabalhamos com um portefólio alargado de equipamentos de END. Não encontrou o que precisa? Contacte-nos.</p>
+                        <div class="card-actions">
+                            <a href="#contacto" class="pill pill-buy">Falar Connosco</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Vantagens -->
+        <section class="vantagens" id="vantagens">
+            <div class="container vantagens-inner">
+                <div class="vantagens-copy">
+                    <p class="eyebrow">Porquê a Delvox</p>
+                    <h2>Equipamento fiável, suporte técnico real</h2>
+                    <p class="section-sub">
+                        Acompanhamos cada equipamento do primeiro contacto até ao fim da sua vida útil,
+                        com manutenção, calibração e apoio técnico especializado.
+                    </p>
+
+                    <ul class="benefits-list">
+                        <li>
+                            <span class="benefit-icon">✓</span>
+                            <div>
+                                <h4>Venda e aluguer flexível</h4>
+                                <p>Aluguer por dia, semana ou mês, ideal para projetos pontuais ou sazonais.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="benefit-icon">✓</span>
+                            <div>
+                                <h4>Calibração e manutenção</h4>
+                                <p>Equipamentos revistos e calibrados antes de cada entrega, com certificado.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="benefit-icon">✓</span>
+                            <div>
+                                <h4>Marcas de referência</h4>
+                                <p>Trabalhamos apenas com fabricantes reconhecidos pela indústria de END.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="benefit-icon">✓</span>
+                            <div>
+                                <h4>Suporte técnico especializado</h4>
+                                <p>Equipa própria disponível para formação, dúvidas técnicas e assistência.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="vantagens-visual" aria-hidden="true">
+                    <div class="stat-card">
+                        <svg viewBox="0 0 48 48"><path d="M8 40V22M20 40V10M32 40V26M44 40V16"/></svg>
+                        <p>Equipamentos monitorizados e revistos periodicamente</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aluguer / CTA -->
+        <section class="cta-banner" id="aluguer">
+            <div class="container cta-inner">
+                <div>
+                    <h2>Precisa de equipamento para um projeto de curta duração?</h2>
+                    <p>Alugue o equipamento de END certo, pelo tempo exato que necessitar, com entrega e recolha organizadas pela Delvox.</p>
+                </div>
+                <a href="#contacto" class="btn btn-primary btn-lg">Pedir Proposta de Aluguer</a>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <div class="container contacto-inner">
+                <div class="contacto-info">
+                    <p class="eyebrow">Contacto</p>
+                    <h2>Vamos falar sobre o seu próximo ensaio</h2>
+                    <p class="section-sub">Envie-nos os seus dados e o tipo de equipamento pretendido — respondemos em até 24 horas úteis.</p>
+
+                    <ul class="info-list">
+                        <li><strong>Telefone:</strong> +351 210 000 000</li>
+                        <li><strong>Email:</strong> geral@delvox.pt</li>
+                        <li><strong>Morada:</strong> Zona Industrial, Lisboa, Portugal</li>
+                        <li><strong>Horário:</strong> Seg. a Sex., 09h00–18h00</li>
+                    </ul>
+                </div>
+
+                <form class="contacto-form" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required placeholder="O seu nome">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="oseuemail@exemplo.com">
+                    </div>
+                    <div class="form-row">
+                        <label for="equipamento">Equipamento de interesse</label>
+                        <select id="equipamento" name="equipamento">
+                            <option value="boroscopio">Boroscópio</option>
+                            <option value="yoke">Yoke (AC/DC)</option>
+                            <option value="radiometro">Radiómetro</option>
+                            <option value="densitometro">Densitómetro</option>
+                            <option value="lanterna-uv">Lanterna Ultravioleta</option>
+                            <option value="ultrasom">Aparelho de Ultra-som</option>
+                            <option value="led">Luzes de Sinalização LED</option>
+                            <option value="outro">Outro / Não sei</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Descreva o que procura: venda, aluguer, prazo, quantidade..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Pedido</button>
+                    <p class="form-feedback" id="formFeedback" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="logo">
+                    <span class="logo-icon" aria-hidden="true"></span>
+                    <span class="logo-mark">DEL<span class="accent">VOX</span></span>
+                </span>
+                <p>Venda e aluguer de equipamentos de Ensaios Não Destrutivos.</p>
+            </div>
+
+            <nav class="footer-nav">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#topo">Início</a></li>
+                    <li><a href="#equipamentos">Equipamentos</a></li>
+                    <li><a href="#vantagens">Porquê a Delvox</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-contact">
+                <h4>Contacto</h4>
+                <p>geral@delvox.pt</p>
+                <p>+351 210 000 000</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; <span id="year"></span> Delvox. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
